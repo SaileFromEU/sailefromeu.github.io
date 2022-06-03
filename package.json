@@ -7,10 +7,12 @@
     "build": "sapper build --legacy",
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
+    "clean": "rd /s /q ./__sapper__>nu1 2>&1|echo.>nu1",
     "deploy": "npm run clean && npm run export && node ./scripts/deploy.js"
   },
   "dependencies": {
     "compression": "^1.7.1",
+    "gh-pages": "^4.0.0",
     "polka": "next",
     "sirv": "^1.0.0"
   },
