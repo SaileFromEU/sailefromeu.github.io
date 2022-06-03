@@ -4,7 +4,7 @@ ghpages.publish(
   "__sapper__/export",
   {
     branch: "master",
-    repo: "sailefromeu.github.io.git",
+    repo: "https://github.com/sailefromeu/sailefromeu.github.io.git",
     user: {
       name: "SaileFromEU",
       email: "eliasskaugeeriksen@gmail.com",
