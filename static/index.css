@@ -1,0 +1,71 @@
+body {
+  background: #24272b;
+  color: white;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info .image-wrapper {
+  height: 800px;
+  width: 800px;
+  border-radius: 0 0 100% 0;
+  overflow: hidden;
+}
+
+.info .text-wrapper {
+  position: absolute;
+  right: 300px;
+  height: 200px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info .text-wrapper h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.info .text-wrapper p {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.info .text-wrapper a {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.header-text .home {
+  font-size: 20px;
+}
+
+.animate {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

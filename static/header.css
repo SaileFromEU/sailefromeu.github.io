@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  background: #000000;
+}
+
+.header .header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .header-text a {
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,17 @@
+{[
+    {
+        "prodnr":1,
+        "name":"Automotive",
+        "description": "10 images",
+        "imageLink":"23 (Large).jpg",
+        "price":"599,-"
+    },
+    {
+        "prodnr":2,
+        "name":"Automotive",
+        "description": "25 images",
+        "types":["Blågrå", "Grå"],
+        "imageLink":"34 (Large).jpg",
+        "price":"1099,-"
+    }
+]}

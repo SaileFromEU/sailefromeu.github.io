@@ -1,0 +1,88 @@
+.header-text .shop {
+  font-size: 20px;
+}
+.header {
+  width: 100%;
+  background: #000000;
+}
+
+.header .header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .header-text a {
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+}
+.searchbar {
+  margin-right: 10%;
+}
+.searchbar input {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.shopItems {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.productCard {
+  height: auto;
+  width: 420px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.productCard .productImage {
+  width: 400px;
+}
+.productDescription {
+  font-size: small;
+}
+
+.lastRow {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.productPrice {
+  font-weight: 500;
+}
+
+.addToCart {
+  padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 6px;
+  background-color: orange;
+}
+
+.shop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button:hover {
+  cursor: pointer;
+}

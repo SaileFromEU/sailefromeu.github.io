@@ -1,0 +1,57 @@
+body {
+  background: #24272b;
+}
+.header-text .contact {
+  font-size: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerContainer {
+  background-color: #34373b;
+  border: 1px solid #505050;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.container h1 {
+  color: white;
+  margin-top: 30px;
+}
+
+.innerContainer h3 {
+  color: white;
+}
+
+.innerContainer input {
+  padding: 5px;
+  width: 400px;
+}
+.innerContainer input:nth-child(6) {
+  height: 100px;
+}
+.submit {
+  padding: 6px;
+  margin-top: 3px;
+  border-radius: 5px;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.thankYouContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thankYou {
+  color: white;
+  width: 500px;
+  margin-top: 200px;
+}
