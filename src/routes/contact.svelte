@@ -24,9 +24,6 @@
   text-decoration: none;
 }
 
-:global(body) {
-  background: #24272b;
-}
 .header-text .contact {
   font-size: 20px;
 }
@@ -128,6 +125,11 @@
 </script>
 
 <svelte:head>
+  <style>
+    body {
+      background: #24272b;
+    }
+  </style>
 	<title>Sondre Mosdal</title>
   <link rel="icon" href="favicon-32x32.png" />
 

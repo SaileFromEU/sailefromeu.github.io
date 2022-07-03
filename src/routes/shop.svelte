@@ -155,6 +155,11 @@
 
 
 <svelte:head>
+  <style>
+    body {
+      background: white;
+    }
+  </style>
 	<title>Sondre Mosdal</title>
   <link rel="icon" href="favicon-32x32.png" />
 
@@ -225,7 +230,7 @@
 	}
 
   const toCheckout = () => {
-    location.href="/shop/checkout"
+    location.href="/checkout"
   }
 	
 
@@ -255,5 +260,6 @@
 		</div>
 		{/each}
 	</div>
-	<button class="checkout" on:click={() => toCheckout()}>Checkout</button>
+	<button role="link" class="checkout" on:click={() => toCheckout()}>Checkout</button>
+  <a href="/checkout" class=""></a>
 </div>

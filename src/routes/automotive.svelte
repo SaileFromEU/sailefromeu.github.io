@@ -108,6 +108,11 @@ img:hover {
 </style>
 
 <svelte:head>
+  <style>
+    body {
+      background: #ffffff;
+    }
+  </style>
 	<title>Sondre Mosdal</title>
   <link rel="icon" href="favicon-32x32.png" />
 

@@ -58,9 +58,6 @@
   }
 }
 
-:global(body) {
-  background: #24272b;
-}
 
 .header-text .my-work {
   font-size: 20px;
@@ -170,6 +167,11 @@ h1.imageMessage {
 
 </script>
 <svelte:head>
+  <style>
+    body {
+      background: #24272b;
+    }
+  </style>
 	<title>Sondre Mosdal</title>
   <link rel="icon" href="favicon-32x32.png" />
 

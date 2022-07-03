@@ -24,10 +24,7 @@
   color: white;
   text-decoration: none;
 }
-:global(body) {
-  background: #24272b;
-  color: white;
-}
+
 
 .info {
   display: flex;
@@ -139,6 +136,13 @@
 </script>
 
 <svelte:head>
+  <style>
+    body {
+      background: #24272b;
+      color:white
+    }
+  </style>
+  
 	<title>Sondre Mosdal</title>
   <link rel="icon" href="favicon-32x32.png" />
 

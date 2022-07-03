@@ -14,10 +14,6 @@
   box-sizing: border-box;
 }
 
-:global(body) {
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-}
 
 .row {
   display: flex;

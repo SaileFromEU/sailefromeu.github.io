@@ -174,6 +174,11 @@ grid-row-gap: 10px;
 </style>
 
 <svelte:head>
+  <style>
+    body {
+      background: white;
+    }
+  </style>
 	<title>Sondre Mosdal</title>
   <link rel="icon" href="favicon-32x32.png" />
 </svelte:head>
